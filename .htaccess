@@ -1,0 +1,7 @@
+Options -Indexes
+<FilesMatch "^\.(?!well-known)">
+  Require all denied
+</FilesMatch>
+<FilesMatch "\.(sqlite|sqlite3|db|log)$">
+  Require all denied
+</FilesMatch>
